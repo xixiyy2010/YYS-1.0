@@ -1,0 +1,1311 @@
+{
+  "meta": {
+    "resolution": [
+      3840,
+      2160
+    ],
+    "aspect": "16:9",
+    "aspect_value": 1.7778,
+    "min_crop_ratio": 0.0185,
+    "hash_algo": "sha256",
+    "source": "printwindow",
+    "version": 1,
+    "created": "2026-09-10T21:36:26"
+  },
+  "defaults": {
+    "threshold": 0.8,
+    "padding": 10,
+    "search_margin": 40
+  },
+  "templates": {
+    "common": {
+      "tansuo": {
+        "image": "common_tansuo.png",
+        "crop": [
+          15,
+          1587,
+          105,
+          1766
+        ],
+        "sha256": "89a1c391e97c8e3c94d6468bcec2f25582a78c326b25c0801e2ef37d9e7852c5",
+        "recommended_interp": "NEAREST_EXACT",
+        "recommended_round": "round",
+        "best_score": 0.8993,
+        "match_mode": "fixed",
+        "note": "探索界面"
+      },
+      "jixu2": {
+        "image": "common_jixu2.png",
+        "crop": [
+          1666,
+          2038,
+          2171,
+          2123
+        ],
+        "sha256": "fe997a0c5faa6460634667aea06f091f06e526b4a04b9be649d1332530887896",
+        "recommended_interp": "LINEAR_EXACT",
+        "recommended_round": "round",
+        "best_score": 0.9425,
+        "match_mode": "fixed",
+        "click_mode": "region",
+        "click": [
+          1770,
+          1975,
+          2090,
+          2160
+        ],
+        "note": "结算继续1"
+      },
+      "jixu0": {
+        "image": "common_jixu0.png",
+        "crop": [
+          1667,
+          2038,
+          2170,
+          2123
+        ],
+        "sha256": "6882a89a2cc88a634d5ae5d9a2607695846f975d1fe3405ee35a4b7243cd676e",
+        "recommended_interp": "LINEAR_EXACT",
+        "recommended_round": "round",
+        "best_score": 0.9479,
+        "match_mode": "fixed",
+        "click_mode": "region",
+        "click": [
+          1770,
+          1975,
+          2090,
+          2160
+        ],
+        "note": "结算继续"
+      },
+      "huicheng": {
+        "image": "common_huicheng.png",
+        "crop": [
+          284,
+          46,
+          412,
+          170
+        ],
+        "match_mode": "custom",
+        "sha256": "a5d5c9d29f615d976e4c8471032e407711a683a64a233911cdc701526b4a1d60",
+        "click_mode": "center",
+        "recommended_interp": "AREA",
+        "recommended_round": "floor",
+        "best_score": 0.9876,
+        "search_crop": [
+          247,
+          0,
+          504,
+          197
+        ],
+        "note": "回城按钮"
+      },
+      "huicheng1": {
+        "image": "common_huicheng1.png",
+        "crop": [
+          284,
+          31,
+          409,
+          152
+        ],
+        "match_mode": "custom",
+        "sha256": "9cfe4ac979bd878e2380a1d3558b0a10a0408fc0fec8d3591e158f4a62972bb9",
+        "click_mode": "center",
+        "recommended_interp": "LINEAR_EXACT",
+        "recommended_round": "floor",
+        "best_score": 0.9906,
+        "search_crop": [
+          239,
+          9,
+          492,
+          197
+        ],
+        "note": "回城按钮2"
+      },
+      "huicheng2": {
+        "image": "common_huicheng2.png",
+        "crop": [
+          316,
+          53,
+          439,
+          170
+        ],
+        "match_mode": "custom",
+        "sha256": "66f365bb2a65bd25c1f2ecf6f31d2571b1384fb40629fefe17ffb0f2f984a6f4",
+        "click_mode": "center",
+        "recommended_interp": "LINEAR_EXACT",
+        "recommended_round": "floor",
+        "best_score": 0.9893,
+        "search_crop": [
+          244,
+          12,
+          492,
+          203
+        ],
+        "note": "回城按钮3"
+      },
+      "huicheng0": {
+        "image": "common_huicheng0.png",
+        "crop": [
+          317,
+          81,
+          385,
+          144
+        ],
+        "match_mode": "custom",
+        "sha256": "4198f343b95e12bff05fcc75d17eab9ebe489fd85ec2197017642c1396a88938",
+        "click_mode": "center",
+        "recommended_interp": "LINEAR_EXACT",
+        "recommended_round": "round",
+        "best_score": 0.9704,
+        "search_crop": [
+          236,
+          6,
+          489,
+          200
+        ],
+        "note": "回城按钮1"
+      },
+      "jiejietupo": {
+        "image": "common_jiejietupo.png",
+        "crop": [
+          516,
+          1929,
+          615,
+          2030
+        ],
+        "match_mode": "custom",
+        "sha256": "293b41338c3994b8be25646e1049ea55845d2f777dc6d5a599d72da235b2e7cf",
+        "click_mode": "center",
+        "recommended_interp": "LANCZOS4",
+        "recommended_round": "floor",
+        "best_score": 0.9734,
+        "search_crop": [
+          185,
+          1872,
+          3268,
+          2132
+        ],
+        "note": "结界突破入口"
+      },
+      "xuanshangjieshou": {
+        "image": "common_xuanshangjieshou.png",
+        "crop": [
+          2494,
+          1192,
+          2615,
+          1312
+        ],
+        "match_mode": "fixed",
+        "sha256": "c34d77946fe9d35e2b6c883a233b7f09b7088b1025416fe5d6b4c1060abc569d",
+        "click_mode": "region",
+        "click": [
+          2528,
+          1187,
+          2967,
+          1328
+        ],
+        "note": "悬赏接受"
+      },
+      "xuanshangjujue": {
+        "image": "common_xuanshangjujue.png",
+        "crop": [
+          2491,
+          1502,
+          2627,
+          1622
+        ],
+        "match_mode": "fixed",
+        "sha256": "c3cb92190954e3192eccd7a5b9e9487bc4fe6a6c84cdd0f8b14268e771078213",
+        "click_mode": "region",
+        "click": [
+          2513,
+          1495,
+          2964,
+          1627
+        ],
+        "note": "悬赏拒绝"
+      },
+      "tansuotuichuqueren": {
+        "image": "common_tansuotuichuqueren.png",
+        "crop": [
+          2086,
+          1150,
+          2560,
+          1274
+        ],
+        "match_mode": "fixed",
+        "sha256": "957ca5ae5a35b73093ec9759d54076859ba3bf013f2bba30241ce827d7891760",
+        "click_mode": "center",
+        "recommended_interp": "NEAREST",
+        "recommended_round": "floor",
+        "best_score": 0.9965,
+        "note": "退出确认"
+      },
+      "tingyuan": {
+        "image": "common_tingyuan.png",
+        "crop": [
+          1100,
+          152,
+          1164,
+          215
+        ],
+        "match_mode": "fixed",
+        "sha256": "8628629b3154a0bf2a084d6d4d1abe7d9239e31accfccc805acb80e858463c1d",
+        "recommended_interp": "AREA",
+        "recommended_round": "round",
+        "best_score": 0.8881,
+        "note": "庭院识别图"
+      },
+      "gouyuxiezhu": {
+        "image": "common_gouyuxiezhu.png",
+        "crop": [
+          1961,
+          1531,
+          2145,
+          1572
+        ],
+        "match_mode": "fixed",
+        "sha256": "d23ba6c833e2a48c6b828c95d002d10ad4f2ad7b181cbaa840b30e50ea67cc02",
+        "note": "勾玉协助"
+      },
+      "xuanshangxiezhu": {
+        "image": "common_xuanshangxiezhu.png",
+        "crop": [
+          1690,
+          474,
+          2081,
+          590
+        ],
+        "match_mode": "fixed",
+        "sha256": "edefe79358273df7c7a54ca983df3ff34bd9707df10827a888ea896127c1e448",
+        "note": "悬赏弹窗"
+      },
+      "tilixiezhu": {
+        "image": "common_tilixiezhu.png",
+        "crop": [
+          1954,
+          1527,
+          2151,
+          1571
+        ],
+        "match_mode": "fixed",
+        "sha256": "2a5fd3b960f9b04239ff2da70f9d44bb54a5e76e6f6df10a62ed09c1cc77e007",
+        "note": "体力协助"
+      },
+      "gouliangxiezhu": {
+        "image": "common_gouliangxiezhu.png",
+        "crop": [
+          1677,
+          1529,
+          1879,
+          1570
+        ],
+        "match_mode": "fixed",
+        "sha256": "add5f9819f6ba1ecada430a4c2a5d159688307859086ff878b4727379d38497b",
+        "recommended_interp": "NEAREST",
+        "recommended_round": "floor",
+        "best_score": 1.0,
+        "note": "狗粮协助"
+      },
+      "zhandoushibai": {
+        "image": "common_zhandoushibai.png",
+        "crop": [
+          1092,
+          1459,
+          1265,
+          1620
+        ],
+        "match_mode": "fixed",
+        "sha256": "28c542e3556869f76d9b5e0d33eb2cee473b4a564fb9da78a1fe0a9b3b43668d",
+        "click_mode": "region",
+        "click": [
+          1770,
+          1975,
+          2090,
+          2160
+        ],
+        "recommended_interp": "LINEAR_EXACT",
+        "recommended_round": "floor",
+        "best_score": 0.9794,
+        "note": "战斗失败界面"
+      },
+      "queding": {
+        "image": "common_queding.png",
+        "crop": [
+          2382,
+          1235,
+          2524,
+          1401
+        ],
+        "match_mode": "fixed",
+        "sha256": "b6b8ad6a4c674e0067c9c6fa43623284c94e93434715580c39c957b7dc80ef7a",
+        "click_mode": "center",
+        "recommended_interp": "AREA",
+        "recommended_round": "floor",
+        "best_score": 0.9835,
+        "note": "确定按钮"
+      }
+    },
+    "yuling": {
+      "yulingxuanze": {
+        "image": "yuling_yulingxuanze.png",
+        "crop": [
+          457,
+          61,
+          851,
+          165
+        ],
+        "sha256": "c0cf1c771ff312e9d98715c00145c0714b906730b81c896584c12d6da4794a27",
+        "recommended_interp": "LINEAR_EXACT",
+        "recommended_round": "floor",
+        "best_score": 0.9861,
+        "match_mode": "fixed",
+        "note": "御灵选择"
+      },
+      "sanceng": {
+        "image": "yuling_sanceng.png",
+        "crop": [
+          286,
+          1082,
+          692,
+          1190
+        ],
+        "sha256": "65dc5c1a13d4a60a7cae64ea816af08bd93256d7a6b25e9ee3308d1b54337a07",
+        "match_mode": "fixed",
+        "click_mode": "center",
+        "recommended_interp": "LINEAR_EXACT",
+        "recommended_round": "floor",
+        "best_score": 0.9881,
+        "note": "御灵3层"
+      },
+      "yuling": {
+        "image": "yuling_yuling.png",
+        "crop": [
+          464,
+          63,
+          825,
+          161
+        ],
+        "sha256": "291fa21409afa22fce9eb96b0dba20be9d31fd3a4e83372be3f1b8f47fd763b8",
+        "match_mode": "fixed",
+        "recommended_interp": "LINEAR_EXACT",
+        "recommended_round": "floor",
+        "best_score": 0.9911,
+        "note": "御灵准备"
+      },
+      "yulingrukou": {
+        "image": "yuling_yulingrukou.png",
+        "crop": [
+          786,
+          1922,
+          911,
+          2036
+        ],
+        "match_mode": "custom",
+        "sha256": "9dabd545ef74420bff67cc395e366e41dabcc86f66cffe94b6ea222e73c116ab",
+        "click_mode": "center",
+        "recommended_interp": "NEAREST",
+        "recommended_round": "round",
+        "best_score": 0.9937,
+        "search_crop": [
+          173,
+          1863,
+          3271,
+          2132
+        ],
+        "note": "御灵入口"
+      }
+    },
+    "baigui": {
+      "baiguizhunbei": {
+        "image": "baigui_baiguizhunbei.png",
+        "crop": [
+          1673,
+          1244,
+          1933,
+          1506
+        ],
+        "sha256": "2a671e24862385e5e46f5a8c493a3ea1619bad9ae6947efd3224461a3dfafd1e",
+        "recommended_interp": "AREA",
+        "recommended_round": "floor",
+        "best_score": 0.9855,
+        "match_mode": "fixed",
+        "note": "百鬼准备界面"
+      },
+      "sanxuanyi": {
+        "image": "baigui_sanxuanyi.png",
+        "crop": [
+          1734,
+          77,
+          2131,
+          185
+        ],
+        "sha256": "e3042e356455fd2d6ffe43c93c2070a336c42bf1c71b8e85985f9842321745c1",
+        "recommended_interp": "LINEAR_EXACT",
+        "recommended_round": "floor",
+        "best_score": 0.9964,
+        "match_mode": "fixed",
+        "note": "三选一"
+      },
+      "zadou": {
+        "image": "baigui_zadou.png",
+        "crop": [
+          1556,
+          46,
+          1726,
+          164
+        ],
+        "sha256": "656c689c6d4663d4ddbfaccd0d5b6b47e56ac9547829fddd3ad8b49769315c7e",
+        "recommended_interp": "LINEAR_EXACT",
+        "recommended_round": "round",
+        "best_score": 0.9878,
+        "match_mode": "fixed",
+        "note": "砸豆界面"
+      },
+      "baiguijiesuan": {
+        "image": "baigui_baiguijiesuan.png",
+        "crop": [
+          309,
+          690,
+          443,
+          1306
+        ],
+        "sha256": "cc138df3d630e4354a45cd50176a13e4cf66dbde616faade509b9eaf88b6ebf6",
+        "match_mode": "fixed",
+        "click_mode": "region",
+        "click": [
+          1443,
+          1953,
+          2779,
+          2115
+        ],
+        "recommended_interp": "LINEAR_EXACT",
+        "recommended_round": "floor",
+        "best_score": 0.9937,
+        "note": "百鬼砸豆结算图"
+      },
+      "baiguituichu": {
+        "image": "baigui_baiguituichu.png",
+        "crop": [
+          3206,
+          564,
+          3297,
+          656
+        ],
+        "match_mode": "fixed",
+        "sha256": "a6d87583caa2c25563755e6e6895303732dfda6a2bae28d007ac820629d43ed2",
+        "click_mode": "center",
+        "recommended_interp": "NEAREST",
+        "recommended_round": "round",
+        "best_score": 0.9428,
+        "note": "百鬼退出按钮"
+      },
+      "douzihuoqu": {
+        "image": "baigui_douzihuoqu.png",
+        "crop": [
+          2340,
+          1240,
+          2543,
+          1292
+        ],
+        "match_mode": "search",
+        "sha256": "4f6b26173144bd5e6eb04e3cdfe5893689f2ced495d31d86a731520da4f7df37",
+        "click_mode": "center",
+        "recommended_interp": "NEAREST",
+        "recommended_round": "round",
+        "best_score": 0.9911,
+        "note": "豆子获取"
+      },
+      "jiasusadou": {
+        "image": "baigui_jiasusadou.png",
+        "crop": [
+          2680,
+          1204,
+          2858,
+          1283
+        ],
+        "match_mode": "search",
+        "sha256": "52a179d80bb227e1d80b8426b48be51f169b284356ef028dbe63a8cb18207740",
+        "click_mode": "center",
+        "recommended_interp": "LINEAR_EXACT",
+        "recommended_round": "floor",
+        "best_score": 0.9992,
+        "note": "加速撒豆"
+      },
+      "baiguijinru": {
+        "image": "baigui_baiguijinru.png",
+        "crop": [
+          3233,
+          1716,
+          3414,
+          1893
+        ],
+        "match_mode": "fixed",
+        "sha256": "e97982ccf8c7428cfe09a714531ffb15d610d4674b5b3340538841c3341a73f8",
+        "click_mode": "center",
+        "recommended_interp": "AREA",
+        "recommended_round": "floor",
+        "best_score": 0.9777,
+        "note": "百鬼界面进入"
+      },
+      "sanxuanyikaishi": {
+        "image": "baigui_sanxuanyikaishi.png",
+        "crop": [
+          3380,
+          1737,
+          3618,
+          1899
+        ],
+        "match_mode": "fixed",
+        "sha256": "c4c0b5d4714f3ccec0da84783f2ed54bb689af89a9bf2f8ed53238898f9ee487",
+        "click_mode": "center",
+        "recommended_interp": "NEAREST",
+        "recommended_round": "floor",
+        "best_score": 0.9966,
+        "note": "砸豆开始"
+      },
+      "gailvup": {
+        "image": "baigui_gailvup.png",
+        "crop": [
+          1530,
+          820,
+          1712,
+          891
+        ],
+        "match_mode": "search",
+        "sha256": "2804366cd98ffe53b2f9954b9cdcca232e27e8d9ebe7e9906f8898bab42667ba",
+        "click_mode": "center",
+        "recommended_interp": "LINEAR_EXACT",
+        "recommended_round": "round",
+        "best_score": 0.9997,
+        "note": "概率UP"
+      }
+    },
+    "collaboration": {
+      "baoxiang": {
+        "image": "collaboration_baoxiang.png",
+        "crop": [
+          2079,
+          1192,
+          2217,
+          1305
+        ],
+        "sha256": "21e68d3f0c4d8a0300fa0238e97297b9292caa57f1dfabcc4223033c6e2b419a",
+        "match_mode": "search",
+        "recommended_interp": "NEAREST_EXACT",
+        "recommended_round": "round",
+        "best_score": 0.998,
+        "click_mode": "center",
+        "note": "困28掉落宝箱"
+      },
+      "xiaoguai": {
+        "image": "collaboration_xiaoguai.png",
+        "crop": [
+          1127,
+          1380,
+          1257,
+          1507
+        ],
+        "match_mode": "search",
+        "sha256": "c61a3f7c27ef95b226c7b20a90ac89eb9941b0b1fa23d6cb924cfb26534e9f69",
+        "click_mode": "center",
+        "recommended_interp": "LINEAR_EXACT",
+        "recommended_round": "floor",
+        "best_score": 0.9974,
+        "note": "小怪"
+      },
+      "boss": {
+        "image": "collaboration_boss.png",
+        "crop": [
+          1851,
+          756,
+          1987,
+          888
+        ],
+        "match_mode": "search",
+        "sha256": "ba03cdbab6075755d1017869cd0fc62829039a16afa20b323da5e3e782fe18b0",
+        "click_mode": "center",
+        "padding": 0,
+        "recommended_interp": "LINEAR_EXACT",
+        "recommended_round": "floor",
+        "best_score": 0.9975
+      },
+      "C28ZBtupojuan": {
+        "image": "collaboration_C28ZBtupojuan.png",
+        "crop": [
+          2767,
+          56,
+          2816,
+          118
+        ],
+        "match_mode": "fixed",
+        "sha256": "2f554259100a5ce9171621ae9d61eb8546d4ddae21a26caf0457dfe13886ae11",
+        "recommended_interp": "LINEAR_EXACT",
+        "recommended_round": "floor",
+        "best_score": 0.989,
+        "note": "困28准备满卷"
+      },
+      "tansuotupojuan": {
+        "image": "collaboration_tansuotupojuan.png",
+        "crop": [
+          2251,
+          68,
+          2279,
+          119
+        ],
+        "match_mode": "fixed",
+        "sha256": "b7b727d4a965e05645ba886274c3bc72b953e90da2aaac0a8a4abc2224888d27",
+        "recommended_interp": "LINEAR_EXACT",
+        "recommended_round": "floor",
+        "best_score": 0.9566,
+        "note": "探索突破卷满"
+      },
+      "gerentupojuan": {
+        "image": "collaboration_gerentupojuan.png",
+        "crop": [
+          3463,
+          64,
+          3529,
+          125
+        ],
+        "match_mode": "fixed",
+        "sha256": "f54e733c0195bb33f14f0ea6b0daadd49832d22f79e251fa12ead3bb0ea87ac5",
+        "note": "个人突破无卷"
+      },
+      "C28": {
+        "image": "collaboration_C28.png",
+        "crop": [
+          3390,
+          1392,
+          3453,
+          1436
+        ],
+        "match_mode": "fixed",
+        "sha256": "987c92aa17162917ed48981ece12826e0e91e956da9c92b1d434c18d3c921138",
+        "recommended_interp": "NEAREST_EXACT",
+        "recommended_round": "round",
+        "best_score": 0.9731,
+        "note": "困28入口"
+      },
+      "jiejietuichu": {
+        "image": "collaboration_jiejietuichu.png",
+        "crop": [
+          3568,
+          349,
+          3666,
+          449
+        ],
+        "match_mode": "fixed",
+        "sha256": "b21c1bb2d6789f11a7fe2a3981bc80f9b1b13a2e5f619b303f97eb1b8f7049d2",
+        "click_mode": "center",
+        "recommended_interp": "NEAREST_EXACT",
+        "recommended_round": "round",
+        "best_score": 0.9801,
+        "note": "突破退出按钮"
+      },
+      "fuben": {
+        "image": "collaboration_fuben.png",
+        "crop": [
+          20,
+          1963,
+          123,
+          2056
+        ],
+        "sha256": "0b474d83c2cd99993949df29db6c2ab14311c7575af50e462331b8887be96fda",
+        "match_mode": "fixed",
+        "recommended_interp": "LINEAR_EXACT",
+        "recommended_round": "floor",
+        "best_score": 0.9924,
+        "note": "困28内部界面"
+      },
+      "C28ZB": {
+        "image": "collaboration_C28ZB.png",
+        "crop": [
+          2814,
+          355,
+          3060,
+          493
+        ],
+        "sha256": "46c5c4b1ff1d79c2cff958ffcc8b8c50b419b2c137dbc65483d83756a46ef00c",
+        "match_mode": "fixed",
+        "click_mode": "region",
+        "click": [
+          3306,
+          1798,
+          3489,
+          1946
+        ],
+        "recommended_interp": "LINEAR_EXACT",
+        "recommended_round": "floor",
+        "best_score": 0.9895,
+        "note": "困28准备界面"
+      },
+      "gerentupo": {
+        "image": "collaboration_gerentupo.png",
+        "crop": [
+          121,
+          1353,
+          315,
+          1470
+        ],
+        "sha256": "751be2ad5900b2de7442f25044ff688cb6ace939bdee36d23ea0c51d5629a869",
+        "match_mode": "fixed",
+        "recommended_interp": "NEAREST_EXACT",
+        "recommended_round": "round",
+        "best_score": 0.9627,
+        "note": "个人突破界面"
+      },
+      "zhandoutuichu": {
+        "image": "collaboration_zhandoutuichu.png",
+        "crop": [
+          75,
+          67,
+          143,
+          124
+        ],
+        "match_mode": "fixed",
+        "sha256": "3fa0cf90bb3771ab1eef77a9d08ebf72c2c867458321fc484f1b0ca20d5eb49b",
+        "click_mode": "center",
+        "recommended_interp": "LINEAR_EXACT",
+        "recommended_round": "round",
+        "best_score": 0.9993,
+        "extra_images": [
+          {
+            "image": "collaboration_zhandoutuichu__v1.png",
+            "sha256": "bcdc4419b0e498b5cc5332b59813e66707abfb1ad2cd4ca68300558552c6e019"
+          },
+          {
+            "image": "collaboration_zhandoutuichu__v2.png",
+            "sha256": "b7d1b9a047bb08a3814556de794aa938e1abdbdc9ca46233cf19a0ccd386baea"
+          },
+          {
+            "image": "collaboration_zhandoutuichu__v3.png",
+            "sha256": "3d6bcdde555e4c50ac720fd8e72882d7ab0c891b4146aa4f83411fe5692806a1"
+          },
+          {
+            "image": "collaboration_zhandoutuichu__v4.png",
+            "sha256": "b75c4a3d17f7e63f230e9920eb247fa72c3c644e2c51e9de932bc45c1366a797"
+          },
+          {
+            "image": "collaboration_zhandoutuichu__v5.png",
+            "sha256": "109373cd166b9a6ea8efb4f5bcb7be1a310d7a790a0c3adad6d3396dab2d337d"
+          },
+          {
+            "image": "collaboration_zhandoutuichu__v6.png",
+            "sha256": "00d7030550932f2c1129cca882e53cac0035c3922792fc55a86558da766918c5"
+          },
+          {
+            "image": "collaboration_zhandoutuichu__v7.png",
+            "sha256": "4920758a47e9e5b43c4705ffdd0479dde506065617f75bd1addd0f241a1fcc3c"
+          },
+          {
+            "image": "collaboration_zhandoutuichu__v8.png",
+            "sha256": "88dab99b0d0105f1c14133671a02ca512e17c7134070a932611532e6b19b59de"
+          },
+          {
+            "image": "collaboration_zhandoutuichu__v9.png",
+            "sha256": "d6448b33e9d1d462cf85a93a85428a16d07c6593e2ab02e18ce16dff2aa503b2"
+          },
+          {
+            "image": "collaboration_zhandoutuichu__v10.png",
+            "sha256": "3ed5e5d2ffa4cfd250274563f4427e53cfcc11c37f19be48a937b154cd890075"
+          },
+          {
+            "image": "collaboration_zhandoutuichu__v11.png",
+            "sha256": "bee2925f6b60c6c0aee8e5424e61ce61f79733288059f0a4ce21f760f9ffbd54"
+          },
+          {
+            "image": "collaboration_zhandoutuichu__v12.png",
+            "sha256": "e20a646521a2f1d45e4a632ee2992117e4cf411de43fd49946ce4a3da4219b01"
+          },
+          {
+            "image": "collaboration_zhandoutuichu__v13.png",
+            "sha256": "d8c68a590b53d78eda2431a1e7563e680573d84ce4f16fd8f74e6371939db484"
+          },
+          {
+            "image": "collaboration_zhandoutuichu__v14.png",
+            "sha256": "3efe6b24e0e3a91edc29dfd37aa47ce5b8332105aca7e98979fd6758a8de6b41"
+          },
+          {
+            "image": "collaboration_zhandoutuichu__v15.png",
+            "sha256": "4589fc146b28e0893417413bbfec367fd88dcf16db395d9cdbf338a4ca93d7dd"
+          }
+        ],
+        "note": "战斗退出按钮"
+      },
+      "zhandoutuichuqueren": {
+        "image": "collaboration_zhandoutuichuqueren.png",
+        "crop": [
+          2389,
+          1237,
+          2517,
+          1395
+        ],
+        "match_mode": "fixed",
+        "sha256": "ce9332e84d8819784f8e7234c3dcde7a62fd110eb67cf9714e61c226f30e302a",
+        "click_mode": "center",
+        "recommended_interp": "NEAREST",
+        "recommended_round": "floor",
+        "best_score": 0.99,
+        "note": "战斗退出确认"
+      },
+      "zaicitiaozhandagou": {
+        "image": "collaboration_zaicitiaozhandagou.png",
+        "crop": [
+          1629,
+          1049,
+          1702,
+          1119
+        ],
+        "match_mode": "fixed",
+        "sha256": "f8467720fa27c5a03465966a2d171ec12d15e5a4a7a3ad88cc5e219dc411cc3e",
+        "click_mode": "center",
+        "recommended_interp": "AREA",
+        "recommended_round": "floor",
+        "best_score": 0.9772,
+        "note": "忽略再次弹窗"
+      },
+      "zaicitiaozhan": {
+        "image": "collaboration_zaicitiaozhan.png",
+        "crop": [
+          2518,
+          1478,
+          2627,
+          1570
+        ],
+        "match_mode": "fixed",
+        "sha256": "311399853fd55a60237c781096c4b4b8569edbb81628eccdd69846f70242e039",
+        "click_mode": "center",
+        "recommended_interp": "LINEAR_EXACT",
+        "recommended_round": "floor",
+        "best_score": 0.9957,
+        "note": "再次挑战"
+      },
+      "shuaxin": {
+        "image": "collaboration_shuaxin.png",
+        "crop": [
+          2895,
+          1712,
+          3404,
+          1874
+        ],
+        "match_mode": "custom",
+        "sha256": "98204aa69c969afabe240f9a7644cba8e48deb8b31d69ef14bf612c0b5aa77b8",
+        "note": "个人突破刷新",
+        "click_mode": "region",
+        "click": [
+          2895,
+          1712,
+          3405,
+          1870
+        ],
+        "search_crop": [
+          2864,
+          1688,
+          3429,
+          1905
+        ],
+        "recommended_interp": "NEAREST_EXACT",
+        "recommended_round": "round",
+        "best_score": 0.9897
+      }
+    },
+    "liaotupo": {
+      "0_6": {
+        "image": "liaotupo_0_6.png",
+        "crop": [
+          807,
+          1687,
+          966,
+          1770
+        ],
+        "match_mode": "fixed",
+        "sha256": "b960927e4ecb20c473dabd8c65076a23f8a4d84f6e7a440d0d8532111dfc4506",
+        "threshold": 0.9,
+        "recommended_interp": "CUBIC",
+        "recommended_round": "floor",
+        "best_score": 0.9347,
+        "note": "寮突破0次"
+      },
+      "liaotupo": {
+        "image": "liaotupo_liaotupo.png",
+        "crop": [
+          221,
+          1907,
+          356,
+          2005
+        ],
+        "sha256": "62d9a9bfe0028192ca375bd49c82c849a2873f839557b1c138c3207327c8915e",
+        "match_mode": "fixed",
+        "recommended_interp": "LINEAR_EXACT",
+        "recommended_round": "floor",
+        "best_score": 0.848,
+        "note": "寮突破界面"
+      }
+    }
+  },
+  "regions": {
+    "collaboration": {
+      "jiangli": {
+        "type": "color",
+        "region": [
+          2000,
+          1700,
+          2100,
+          1770
+        ],
+        "normal_bgr": [
+          185,
+          201,
+          214
+        ],
+        "abnormal_bgr": [
+          76,
+          83,
+          88
+        ],
+        "frames": 3,
+        "note": "宝箱残留检测"
+      }
+    }
+  },
+  "points": {},
+  "coords": {
+    "common": {
+      "tuichu": {
+        "click_mode": "region",
+        "click": [
+          63,
+          60,
+          137,
+          128
+        ],
+        "note": "通用退出按钮"
+      }
+    },
+    "navigation": {
+      "tingyuan_tansuo": {
+        "click_mode": "region",
+        "click": [
+          1380,
+          315,
+          3500,
+          615
+        ],
+        "note": "庭院→探索"
+      },
+      "tingyuan_dingzhong": {
+        "click_mode": "region",
+        "click": [
+          1680,
+          770,
+          3500,
+          960
+        ],
+        "note": "庭院→町中"
+      },
+      "dingzhong_tingyuan": {
+        "click_mode": "region",
+        "click": [
+          3030,
+          690,
+          3500,
+          940
+        ],
+        "note": "町中→庭院"
+      }
+    },
+    "baigui": {
+      "baiguirukou": {
+        "click_mode": "region",
+        "click": [
+          2650,
+          510,
+          2770,
+          660
+        ],
+        "note": "町中→百鬼入口"
+      },
+      "zuo": {
+        "click_mode": "region",
+        "click": [
+          700,
+          1500,
+          800,
+          1600
+        ],
+        "note": "三选一 左"
+      },
+      "zhong": {
+        "click_mode": "region",
+        "click": [
+          1850,
+          1500,
+          1950,
+          1600
+        ],
+        "note": "三选一 中"
+      },
+      "you": {
+        "click_mode": "region",
+        "click": [
+          3000,
+          1500,
+          3100,
+          1600
+        ],
+        "note": "三选一 右"
+      },
+      "zadoufanwei": {
+        "click_mode": "region",
+        "click": [
+          100,
+          1100,
+          3600,
+          1600
+        ],
+        "note": "砸豆全区域"
+      },
+      "zadouyou1": {
+        "click_mode": "region",
+        "click": [
+          2433,
+          1100,
+          3600,
+          1600
+        ],
+        "note": "砸豆右1/3"
+      },
+      "zadouyou2": {
+        "click_mode": "region",
+        "click": [
+          1267,
+          1100,
+          3600,
+          1600
+        ],
+        "note": "砸豆右2/3"
+      }
+    },
+    "yuling": {
+      "baihu": {
+        "click_mode": "region",
+        "click": [
+          1260,
+          800,
+          1860,
+          1200
+        ],
+        "note": "选白狐"
+      },
+      "tiaozhan": {
+        "click_mode": "region",
+        "click": [
+          3190,
+          1780,
+          3405,
+          1995
+        ],
+        "note": "御灵挑战按钮"
+      },
+      "sanceng": {
+        "click_mode": "region",
+        "click": [
+          400,
+          1094,
+          555,
+          1184
+        ],
+        "note": "第3层切换区域"
+      }
+    },
+    "collaboration": {
+      "c28rukou": {
+        "click_mode": "region",
+        "click": [
+          3280,
+          1400,
+          3720,
+          1620
+        ],
+        "note": "困28入口范围"
+      },
+      "c28tansuo": {
+        "click_mode": "region",
+        "click": [
+          3280,
+          1760,
+          3505,
+          1985
+        ]
+      },
+      "baoxiangguanbi": {
+        "click_mode": "region",
+        "click": [
+          1200,
+          1700,
+          2000,
+          2100
+        ],
+        "note": "宝箱关闭范围"
+      }
+    },
+    "liaotupo": {
+      "qiehuan": {
+        "click_mode": "region",
+        "click": [
+          3607,
+          1131,
+          3773,
+          1439
+        ],
+        "note": "寮突破切换按钮"
+      }
+    }
+  },
+  "grids": {
+    "liaotupo": {
+      "格子": {
+        "x_start": 1570,
+        "y_start": 450,
+        "w": 600,
+        "h": 200,
+        "gap_x": 400,
+        "gap_y": 200,
+        "cols": 2,
+        "rows": 4,
+        "click_mode": "region",
+        "color_check": {
+          "corner": "top_right",
+          "offset_x": -15,
+          "offset_y": 15,
+          "sample_size": 3,
+          "unchallenged_bgr": [
+            188,
+            203,
+            218
+          ],
+          "challenged_bgr": [
+            92,
+            100,
+            107
+          ],
+          "frames": 2
+        }
+      },
+      "进攻": {
+        "x_start": 1800,
+        "y_list": [
+          1060,
+          1470,
+          1870,
+          1250
+        ],
+        "w": 360,
+        "h": 160,
+        "gap_x": 650,
+        "cols": 2,
+        "click_mode": "region"
+      }
+    },
+    "collaboration": {
+      "格子": {
+        "x_start": 720,
+        "y_start": 450,
+        "w": 640,
+        "h": 320,
+        "gap_x": 350,
+        "gap_y": 90,
+        "cols": 3,
+        "rows": 3,
+        "click_mode": "region",
+        "color_check": {
+          "corner": "top_right",
+          "offset_x": -80,
+          "offset_y": 5,
+          "sample_size": 3,
+          "unchallenged_bgr": [
+            188,
+            202,
+            218
+          ],
+          "challenged_bgr": [
+            92,
+            100,
+            107
+          ],
+          "frames": 2,
+          "rb_diff_threshold": 60,
+          "brightness_threshold": 150
+        }
+      },
+      "进攻": {
+        "x_start": 970,
+        "y_start": 1080,
+        "w": 370,
+        "h": 170,
+        "gap_x": 630,
+        "gap_y": 230,
+        "cols": 3,
+        "rows": 3,
+        "click_mode": "region"
+      }
+    }
+  },
+  "swipes": {
+    "collaboration": {
+      "c28huadong": {
+        "start_region": [
+          3390,
+          296,
+          3657,
+          1692
+        ],
+        "end_region": [
+          219,
+          585,
+          505,
+          1827
+        ],
+        "nodes_offset": [
+          [
+            0,
+            0
+          ]
+        ],
+        "dx_min": 0,
+        "dx_max": 0,
+        "dy_min": 200,
+        "dy_max": 300,
+        "random_px": 0,
+        "duration_ms": 100,
+        "interval_ms": 50,
+        "note": "探索困28滑动"
+      },
+      "c28rukouhuadong": {
+        "start_region": [
+          3170,
+          1470,
+          3802,
+          1647
+        ],
+        "end_region": [
+          3170,
+          513,
+          3811,
+          682
+        ],
+        "nodes_offset": [],
+        "dx_min": 0,
+        "dx_max": 0,
+        "dy_min": 0,
+        "dy_max": 0,
+        "random_px": 0,
+        "duration_ms": 200,
+        "interval_ms": 400,
+        "note": "困28滑动区域"
+      }
+    }
+  }
+}

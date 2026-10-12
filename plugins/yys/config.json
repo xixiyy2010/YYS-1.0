@@ -1,0 +1,113 @@
+{
+  "name": "阴阳师",
+  "boss": "plugins.yys.boss.YysBoss",
+  "need": [
+    "screenshot",
+    "tap",
+    "swipe",
+    "color",
+    "template",
+    "shared_memory"
+  ],
+  "resources": {
+    "templates_dir": "plugins/yys/_shared/templates"
+  },
+  "slots": {
+    "business": {
+      "seat": "A",
+      "label": "阴阳师"
+    },
+    "bind": {
+      "seat": "B",
+      "rules": [
+        {
+          "window_keyword": "MuMu安卓设备",
+          "shot": {
+            "by": "title",
+            "value": "nemudisplay",
+            "fallback": "parent"
+          },
+          "click": {
+            "by": "title",
+            "value": "MuMuNxDevice",
+            "fallback": "shot"
+          }
+        },
+        {
+          "window_keyword": "雷电模拟器",
+          "shot": {
+            "by": "class",
+            "value": "RenderWindow",
+            "fallback": "parent"
+          },
+          "click": {
+            "by": "shot"
+          }
+        }
+      ]
+    },
+    "alert": {
+      "seat": "C",
+      "label": "悬赏协助"
+    },
+    "switches": [
+      {
+        "seat": "1",
+        "label": "全局处理",
+        "default": true
+      },
+      {
+        "seat": "2",
+        "label": "掉线处理",
+        "default": false
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "id": "collaboration",
+      "name": "绘卷速刷",
+      "class": "CollaborationTaskThread",
+      "module_file": "collaboration_task.py",
+      "folder": "collaboration",
+      "stats": [
+        "结界",
+        "探索"
+      ],
+      "default_count": "inf"
+    },
+    {
+      "id": "yuling",
+      "name": "御灵白狐",
+      "class": "YulingTaskThread",
+      "module_file": "yuling_task.py",
+      "folder": "yuling",
+      "stats": [
+        "御灵"
+      ],
+      "default_count": "inf"
+    },
+    {
+      "id": "baigui",
+      "name": "百鬼夜行",
+      "class": "BaiguiTaskThread",
+      "module_file": "baigui_task.py",
+      "folder": "baigui",
+      "stats": [
+        "百鬼"
+      ],
+      "default_count": "inf"
+    },
+    {
+      "id": "liaotupo",
+      "name": "阴阳寮突",
+      "class": "LiaoTupoTaskThread",
+      "module_file": "liaotupo_task.py",
+      "folder": "liaotupo",
+      "stats": [
+        "寮突破"
+      ],
+      "default_count": "inf"
+    }
+  ]
+}
